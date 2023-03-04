@@ -13,8 +13,9 @@ class Main {
 
             switch (splitInput[0]) {
                 case "add":
-                    //TODO
-                    System.out.println("add");
+                    System.out.println(Calculator.add(
+                            Integer.parseInt(splitInput[1]),
+                            Integer.parseInt(splitInput[2])));
                     break;
                 case "subtract":
                     //TODO
