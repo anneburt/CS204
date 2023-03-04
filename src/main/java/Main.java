@@ -18,8 +18,9 @@ class Main {
                             Integer.parseInt(splitInput[2])));
                     break;
                 case "subtract":
-                    //TODO
-                    System.out.println("subtract");
+                    System.out.println(Calculator.subtract(
+                            Integer.parseInt(splitInput[1]),
+                            Integer.parseInt(splitInput[2])));
                     break;
                 case "multiply":
                     //TODO
