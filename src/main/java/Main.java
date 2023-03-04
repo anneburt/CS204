@@ -28,8 +28,9 @@ class Main {
                             Integer.parseInt(splitInput[2])));
                     break;
                 case "divide":
-                    //TODO
-                    System.out.println("divide");
+                    System.out.println(Calculator.divide(
+                            Integer.parseInt(splitInput[1]),
+                            Integer.parseInt(splitInput[2])));
                     break;
                 case "fibonacci":
                     //TODO
