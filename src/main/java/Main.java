@@ -33,8 +33,8 @@ class Main {
                             Integer.parseInt(splitInput[2])));
                     break;
                 case "fibonacci":
-                    //TODO
-                    System.out.println("fibonacci");
+                    System.out.println(Calculator.fibonacciNumberFinder(
+                            Integer.parseInt(splitInput[1])));
                     break;
                 case "binary":
                     //TODO
