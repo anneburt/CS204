@@ -37,8 +37,8 @@ class Main {
                             Integer.parseInt(splitInput[1])));
                     break;
                 case "binary":
-                    //TODO
-                    System.out.println("binary");
+                    System.out.println(Calculator.intToBinaryNumber(
+                            Integer.parseInt(splitInput[1])));
                     break;
                 case "quit":
                     return;
