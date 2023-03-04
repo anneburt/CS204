@@ -23,8 +23,9 @@ class Main {
                             Integer.parseInt(splitInput[2])));
                     break;
                 case "multiply":
-                    //TODO
-                    System.out.println("multiply");
+                    System.out.println(Calculator.multiply(
+                            Integer.parseInt(splitInput[1]),
+                            Integer.parseInt(splitInput[2])));
                     break;
                 case "divide":
                     //TODO
